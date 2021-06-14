@@ -1,15 +1,16 @@
 .body{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
  .main_container .h2{
-  color:#116466;
+  color:#05386b;
 }
 h5 {
   padding-top: 9px;
 }
-h2 .span{
+main_container h2 span{
   font-style:italic;
   text-decoration: underline;
+  color: #5cdb95;
 }
 .col1 .border:hover{
   width: 454px;
