@@ -4,23 +4,23 @@ body {
   width: 1300px;
   height: 100%;
   background-size: cover;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Quicksand', sans-serif;
 }
 .navbar{
-  color: #D9B08C;
+  color: #5cdb95;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   font-weight: 700;
 }
-.nav-colored { background-color:#D9B08C; }
+.nav-colored { background-color:#5cdb95; }
 .nav-transparent { background-color:transparent;}
 
 .navbar-nav > li > .dropdown-menu .dropdown-item:hover {
-  background-color: #D9B08C;
+  background-color: #5cdb95;
 }
 .navbar .nav-item .nav-link {
-  color:#116466;
+  color:#05386b;
 }
 
 .full-page{
@@ -28,7 +28,7 @@ body {
 }
 .block1 {
   padding-top: 15%;
-  color:#116466;
+  color:#05386b;
 }
 .block1 p{
   font-weight: 450;
