@@ -1,0 +1,78 @@
+body {
+  background: url('../Assets/Images/book.jpg');
+  background-repeat: no-repeat;
+  width: 1300px;
+  height: 100%;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar{
+  color: #D9B08C;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  font-weight: 700;
+}
+.nav-colored { background-color:#D9B08C; }
+.nav-transparent { background-color:transparent;}
+
+.navbar-nav > li > .dropdown-menu .dropdown-item:hover {
+  background-color: #D9B08C;
+}
+.navbar .nav-item .nav-link {
+  color:#116466;
+}
+
+.full-page{
+  height: 100vh;
+}
+.block1 {
+  padding-top: 15%;
+  color:#116466;
+}
+.block1 p{
+  font-weight: 450;
+}
+.block1 .btn-success{
+  background-color:#E75480;
+  color:white;
+  text-decoration: bold;
+  border-style: thick;
+  border-color:#E75480;
+}
+.block1 .btn-info {
+  text-decoration: bold;
+  border-style: thick;
+}
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+	.dropdown-menu li {
+		position: relative;
+	}
+	.dropdown-menu .submenu{
+		display: none;
+		position: absolute;
+		left:100%; top:-7px;
+	}
+	.dropdown-menu .submenu-left{
+		right:100%; left:auto;
+	}
+
+	.dropdown-menu > li:hover{ background-color: #f1f1f1 }
+	.dropdown-menu > li:hover > .submenu{
+		display: block;
+	}
+}
+/* ============ desktop view .end// ============ */
+
+/* ============ small devices ============ */
+@media (max-width: 991px) {
+
+.dropdown-menu .dropdown-menu{
+		margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
+}
+
+}
+/* ============ small devices .end// ============ */

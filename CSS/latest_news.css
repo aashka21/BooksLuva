@@ -1,0 +1,25 @@
+.body{
+  font-family: 'Roboto', sans-serif;
+}
+ .main_container .h2{
+  color:#116466;
+}
+h5 {
+  padding-top: 9px;
+}
+h2 .span{
+  font-style:italic;
+  text-decoration: underline;
+}
+.col1 .border:hover{
+  width: 454px;
+  height: 314px;
+}
+.col1 .border:hover{
+  width: 454px;
+  height: 304px;
+}
+.col2 .border:hover{
+  width: 454px;
+  height: 304px;
+}
